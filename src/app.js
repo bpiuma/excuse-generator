@@ -22,13 +22,13 @@ window.onload = function() {
   let whatIndex = Math.floor(Math.random() * 3);
   let whenIndex = Math.floor(Math.random() * 5);
 
-  this.console.log(
+  let p = document.getElementById("excuse");
+  p.innerHTML =
     who[whoIndex] +
-      " " +
-      action[actionIndex] +
-      " " +
-      what[whatIndex] +
-      " " +
-      when[whenIndex]
-  );
+    " " +
+    action[actionIndex] +
+    " " +
+    what[whatIndex] +
+    " " +
+    when[whenIndex];
 };
