@@ -8,4 +8,8 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
+
+  let personas = ["Pablo", "Luciana"];
+  console.log(personas);
+  console.log(personas[0]);
 };
